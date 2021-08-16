@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.google.com/specimen/Baloo+Bhaina+2?preview.size=26&query=baloo+bhai" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squat fitness club</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            padding: 0px;
+            background: url("https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?cs=srgb&dl=pexels-victor-freitas-791763.jpg&fm=jpg");
+            background-size:  100%
+        }
+        .left{
+            display: inline-block;
+            color: white;
+
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+
+        }
+        .mid{
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+            color: white;
+
+
+        }
+        .right{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            display: inline-flex;
+            color: white;
+
+            width: 13%;
+        }
+        .navbar1{
+            display: inline-block;
+        }
+        .navbar1 li{
+            display: inline-block;
+            font-size: 15px;
+        }
+        .navbar1 li a{
+            color: azure;
+            text-decoration: none;
+            padding: 34px;
+        }
+        .navbar1 li a:hover,.navbar1 li a.active{
+            text-decoration: underline;
+            color: gray;
+        }
+        .navbar2{
+            display: inline-block;
+        }
+        .navbar2 li{
+            display: inline-block;
+            font-size: 15px;
+        }
+        .navbar2 li a{
+            color: black;
+            text-decoration: none;
+            padding: 34px;
+        }
+        .navbar2 li a:hover,.navbar2 li a.active{
+            text-decoration: underline;
+            color: gray;
+        }
+        .left img{
+            width: 150px;
+            height: 100px;
+        }
+        .left div{
+            text-align: center;
+        }
+        .btn{
+            position: center;
+            font-family: 'Baloo Bhaina 2', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: azure;
+            padding: -1px 14px;
+            border: 2px solid gray;
+            border-radius: 6px;
+            font-size: 10px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn:hover{
+            background-color: rgb(80, 77, 77);
+        }
+        .info{
+            color: azure;
+            text-align: center;
+            font-size: 25px;
+            margin: 150px auto;
+            padding: 2px 2px;
+            width: 80%;
+            border-radius: 2px;
+        }
+        .container{
+            color: azure;
+            font-size: 20px;
+            margin: 40px 180px;
+            padding: 1px;
+            width: 33%;
+            border-radius: 15px;
+        }
+
+        .form input{
+            font-family: 'Baloo Bhaina 2', cursive;
+            text-align: center;
+
+            width: 500px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 8px auto;
+            font-size: 15px;
+            border-radius: 15px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            padding: 5px 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="logo.jpg" alt="club logo">
+        <div>Squat Fitness <br>Clube</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar1">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+            <ul class="navbar2">
+                <li><a href="#">DIET PLAN</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="info">
+        The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.’
+        <br>— Arnold Schwarzenegger, seven-time Mr. Olympia
+    </div>
+
+    <div class="container">
+        <h1>join us now !!</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Full Name">
+            </div>
+
+            <div class="form">
+                <input type="text" name="" placeholder="Age">
+            </div>
+
+            <div class="form">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+
+            <div class="form">
+                <input type="text" name="" placeholder="Weight">
+            </div>
+
+            <div class="form">
+                <input type="text" name="" placeholder="Height">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="phone number">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
